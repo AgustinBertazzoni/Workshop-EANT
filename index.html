@@ -9,12 +9,13 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>WorkShop</title>
   </head>
   <body>
     <!--Inicio navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Mi portfolio</a>
+    <nav class="navbar navbar-expand-lg navbar-info bg-light sticky-top">
+      <a class="navbar-brand" href="#">Mi Portfolio</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -34,7 +35,7 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#">Mis Pasiones</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Habilidades</a>
@@ -56,65 +57,136 @@
       <!--Inicio Header-->
       <article class="row noticia">
         <div class="col-6 p-5">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrhHYqckJZbx0rf7blOl7JEEviw8aDYeGi_mCNfvLxbCELjWE1&usqp=CAU"
-            class="rounded-circle"
-          />
+          <img src="img/portada.jpg" class="imagen-principal" />
         </div>
-        <div class="col-6 p-5">
-          <h1>La tecnologia llega a la actual copa Libertadores</h1>
-          <p class="h3">Fullstack Developer</p>
-          <p>
-            La conmebol anuncio la implementacion del sistema VAR desde las
-            semifinales de la actual Copa Libertadores
+        <div class="col-6 p-5 align-self-center">
+          <h1 class="font-weight-bold display-4">Agustin Bertazzoni Morán</h1>
+          <h2 class="text-monospace">Futuro Fullstack Developer</h2>
+          <br />
+          <p class="font-italic">
+            Comenzando mis primeros pasos como programador
           </p>
         </div>
       </article>
       <!--Fin header-->
 
       <!--Inicio Main-->
-      <h3 class="h1 text-center">Portfolio</h3>
-      <br />
-      <div class="row d-flex justify-content-between">
-        <div class="card col-3" style="width: 18rem;">
-          <img src="img/descarga.jfif" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card col-3" style="width: 18rem;">
-          <img src="img/Account Suspended.jfif" class="card-img-top" alt="" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card col-3" style="width: 18rem;">
-          <img
-            src="img/Nueva ducati deportiva más rápida y segura_ Ruedas de carrera lisas para terrenos mojados_.jfif"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+
+      <!--Mis Pasiones-->
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="display-3 py-5">Mis Pasiones</h2>
         </div>
       </div>
 
+      <br />
+
+      <div class="row d-flex justify-content-between">
+        <div
+          class="card border border-dark rounded fondo"
+          style="width: 18rem;"
+        >
+          <img src="img/bombonera442.jpg" class="card-img-top" alt="" />
+          <div class="card-body">
+            <p class="card-text">
+              <strong>
+                El futbol, mi otra mitad <br />
+                No hay otra cosa que me genere tanto placer como jugar o
+                sentarme a ver un partido. <br />
+                Obviamente, mucho mejor si es de Boca.</strong
+              >
+            </p>
+          </div>
+        </div>
+        <div
+          class="card border border-dark rounded fondo"
+          style="width: 18rem;"
+        >
+          <img src="img/moto.jpg" class="card-img-top" alt="" />
+          <div class="card-body">
+            <p class="card-text">
+              <strong
+                >Subirme a mi moto es como estar volando. Es la mejor sensacion
+                que se puede sentir, y como dicen todos, hasta que no lo
+                probaste, no vas a saber como se siente.
+              </strong>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card border border-dark rounded fondo"
+          style="width: 18rem;"
+        >
+          <img src="img/programacion.jfif" class="card-img-top" alt="" />
+          <div class="card-body">
+            <p class="card-text">
+              <strong
+                >Programar es algo que sueño hacer desde chico. Por cosas de la
+                vida, nunca tuve la oportunidad de poder comenzar a estudiarlo.
+                Y ahora, que me salio esa posibilidad, no lo dude ni un segundo.
+              </strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Fin Mis Pasiones-->
+
+      <!--Inicio Habilidades-->
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="display-3 py-5">Habilidades</h2>
+        </div>
+      </div>
+      <div class="container">
+        <h3><em> Habilidades aprendidas:</em></h3>
+        <br>
+        <div class="row habilidad d-flex justify-content-around">
+          <a
+            href="https://es.wikipedia.org/wiki/HTML"
+            target="_blank"
+            class="badge badge-primary"
+            >HTML</a
+          >
+          <a
+            href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada"
+            target="_blank"
+            class="badge badge-secondary"
+            >CSS</a
+          >
+          <a
+            href="https://getbootstrap.com/"
+            target="_blank"
+            class="badge badge-success"
+            >BOOTSTRAP</a
+          >
+        </div>
+        <br>
+        <h3><em> Habilidades por aprender éste año:</em></h3>
+        <br />
+        <div class="row habilidad d-flex justify-content-around">
+          <a
+            href="https://es.wikipedia.org/wiki/JavaScript"
+            target="_blank"
+            class="badge badge-danger"
+            >JS</a
+          >
+          <a
+            href="https://nodejs.org/es/"
+            target="_blank"
+            class="badge badge-warning"
+            >NODE.JS</a
+          >
+          <a
+            href="https://es.wikipedia.org/wiki/SQL"
+            target="_blank"
+            class="badge badge-dark"
+            >SQL</a
+          >
+        </div>
+      </div>
+      
+      
+    </div>
       <!--Fin Main-->
 
       <!--Footer-->
