@@ -1,16 +1,52 @@
 body {
   background-color: rgba(221, 223, 230, 0.897);
 }
-.imagen-principal {
-  width: 400px;
-  height: 400px;
-  border-radius: 200px;
-}
+
 .fondo {
   background-color: rgba(221, 223, 230, 0.897);
+}
+.color-nav {
+  background-color: black;
+}
+.color-nav-letra {
+  color: azure;
 }
 .habilidad {
   font-size: 40px;
   margin-top: 20px;
   margin-left: 5px;
+}
+.alto {
+  height: 700px;
+  background-image: url(../img/codigo-fuente-escritorio-papel-tapiz-lenguaje-computadora-codificacion-programacion_33771-595.jpg);
+  background-size: cover;
+}
+.borde {
+  padding-top: 4%;
+}
+.color-letra {
+  color: blanchedalmond;
+}
+.pasion {
+  height: 600px;
+  margin-top: 10%;
+}
+.img-separadora {
+  background-image: url(../img/phpCode.png);
+  background-size: cover;
+  height: 300px;
+  margin: 2% 0% 7% 0%;
+  padding: 0%;
+}
+.img-conocimiento {
+  background-image: url(../img/programador.jpg);
+  background-size: cover;
+}
+.img-separadora2 {
+  background-image: url(../img/separadora2.png);
+  background-size: cover;
+  height: 300px;
+  margin: 7% 0% 7% 0%;
+
+  padding: 0%;
 }
